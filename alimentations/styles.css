@@ -1,0 +1,133 @@
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff; 
+}
+
+h1 a{
+  text-decoration: none;
+}
+nav ul {
+  margin-left: 50%;
+}
+nav ul li{
+  text-transform: uppercase;
+  float: right;
+}
+
+header{
+ margin-bottom: 20px; 
+}
+header nav div ul li{
+  float: right;
+
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 35px;
+  font-family: cursive;
+  text-decoration: none;
+}
+.clearfix{
+  content: '.';
+  clear: both;
+}
+#logo span{
+  font-family: "Indie Flower ";
+  font-size: 1.2em;
+  color: #ffc107;
+}
+.container h1{
+  font-family: "Kalam";
+  font-size: 3em;
+}
+
+.card-text{
+  /*height: 700px;*/
+}
+section {
+  margin-top: 80px;
+}
+.inner
+{
+  overflow: hidden;
+}
+.inner img
+{
+  transition: all 1.5s ease;
+}
+.inner:hover img
+{
+  transform: scale(1.5);
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.col-md-3{
+  /*height:400px;*/
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*height: 600px;*/
+  margin-top: 3em;
+}
+.container-fluid
+{
+  margin: 15px;
+}
+.btn
+{
+  background: #edbb00;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 35px;
+}
+#logos span
+{
+  font-family:  cursive;
+  font-size: 1em;
+  color: #ffc107;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 30px;
+}
+h2+p
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.col-md-4{
+  margin-bottom: 15px;
+}
+h4{
+  font-size: 15px;
+}
+iframe{
+  height: 500px;
+  width: 100%;
+  margin: 10px auto;
+}
+.lien{
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+  font-size: 18px; 
+
+}
+footer
+{
+  background-color: #343a40;
+  color: #EAE8D9;
+}

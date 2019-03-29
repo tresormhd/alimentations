@@ -1,0 +1,67 @@
+/*carousel*/
+.carousel-indicators .active
+{
+ background-color: #edbb00;
+ border: #edbb00;
+}
+.carousel-control-next
+{
+  background-image:  none;
+}
+.carousel-control-prev
+{
+  background-image:  none;
+}
+.btn
+{
+  background: #edbb00;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 35px;
+}
+#logos span
+{
+  font-family: 'pacifico', cursive;
+  font-size: 1em;
+  color: #ffc107;
+}
+#logos
+{
+  margin-bottom: 20px;
+    color: #EAE8D9 ;
+  font-family: 'Kalam', sans-serif;
+  font-size: 4em;
+    letter-spacing: -2px; 
+}
+.carousel-item
+{
+  height: 100vh;
+}
+.banner
+{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.8;
+}
+.carousel-caption
+{
+  padding-bottom: 200px;
+
+}
+.carousel-caption h2
+{
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Kalam',cursive;
+  padding-top: 150px;
+}
+.carousel-caption p {
+  font-size: 2em;
+  font-family: cursive;
+  color: red;
+}
